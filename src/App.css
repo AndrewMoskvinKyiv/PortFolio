@@ -1,0 +1,77 @@
+*{
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+
+.top{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(199, 171, 171);
+  background-image: url(../src/images/lay2.jpg);
+  min-height: 600px;
+  height: 100%;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+.services__background{
+  background-color:rgb(247, 247, 247)
+}
+.services__items{
+  display: flex;
+  justify-content: space-around;
+  max-width: 1320px;
+  margin: 0 auto 80px;
+  padding-top: 40px ;
+  transition: all 0.5s;
+  scroll-behavior: smooth;
+  flex-wrap: wrap;
+
+}
+.statistic{
+  display: flex;
+  justify-content: space-around;
+  max-width: 1320px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  transition: all 0.5s;
+  scroll-behavior: smooth;
+}
+.portfolio{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(194, 190, 190);
+  background-image: url(images/lay.jpg);
+  min-height: 300px;
+  background-position: center;
+  position: relative;
+
+
+}
+.block_overlay {
+  z-index: 3;
+  content: ' ';
+   background-color: #f8f4f4;
+   opacity: 0.6;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 50%;
+
+
+}
+.examples{
+  display: flex;
+  justify-content: space-between;
+
+}
+.footer{
+  margin-top: 120px;
+  border-top: 1px solid #c4c0c0;
+}
