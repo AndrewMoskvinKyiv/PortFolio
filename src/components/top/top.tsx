@@ -1,12 +1,10 @@
-import React, {useEffect} from "react";
+import React, {ReactElement} from "react";
 import style from './top.module.css';
-import avatar from './../../images/avatar.jpg'
-
 
 type TopPropsTypes = {
     offSetY:number,
     topTitle:string,
-    topText:string,
+    topText:ReactElement<any,any>,
 }
 
 export const Top = React.memo((props:TopPropsTypes) => {
@@ -26,9 +24,9 @@ export const Top = React.memo((props:TopPropsTypes) => {
             </div>
 
             <div className={style.top__text}>
-                <p>
+                <html>
                     {props.topText}
-                </p>
+                </html>
             </div>
 </div>
         </div>
