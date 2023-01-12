@@ -23,7 +23,7 @@ export const CV = () => {
         <StyledDiv>
             <a id='cv'>
             <StyledLink id="q1vv_q-download-resume"
-                        href="https://www.dropbox.com/s/i4e2f77207cr6bl/CV%20Moskvin%20Front-end.pdf?dl=0"
+                        href="https://www.dropbox.com/s/hzx3069hyo59gdv/MoskvinAV__CV%20Front-end.pdf?dl=0"
                         target='_blank'
                         download="">
                 download my CV
